@@ -1,0 +1,17 @@
+.bgHeader{
+    position: fixed;
+    width: 100vw;
+    height: 80px;
+    border-bottom: solid;
+    border-color: #EFE3E3;
+    border-width: 1px;
+}
+
+
+img.Logo2{
+    position: absolute;
+width: 77px;
+height: 85px;
+padding-left: 45%;
+
+}
