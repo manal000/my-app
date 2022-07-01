@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+
+.bg-Client{
+
+width: 1250px;
+height: 822px;
+margin-left: 51px;
+margin-top: 140px;
+
+background: #F0F5F9;
+border-radius: 10px;
+}
+
+p.View{ 
+    
+width: 330px;
+height: 79px;
+margin-left: 50px ;
+margin-top: 60px;
+font-family:   'Signika', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 35px;
+line-height: 39px;
+
+color: #000000;
+}
+
+b.client{ 
+    color: #0470B5;
+}
+
+#search{
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    margin-left: 1000px ;
+    margin-top: 60px;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-family:   'Signika', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+}
+
+.test{
+    display: flex;
+}

@@ -4,17 +4,22 @@
 import "./App.css";
 import Login from "./Login";
 import Header from "./Header";
-
+import Client from "./Client";
+import { useMediaQuery } from 'react-responsive';
 
 function App() {
   return (
     <div >
       <header className="App-header">
 <Header />
-   <Login/>
-
+   
+<Client />
       </header>
+    
     </div>
+
+
+
   );
 }
 
