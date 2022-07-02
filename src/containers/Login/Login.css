@@ -7,8 +7,8 @@
     width: 57%;
     height: 420px;
   left: 20%;
-    top: 130px;
-    bottom : 75px;
+    top: 20%;
+    bottom : 20%;
     background: #F0F5F9;
     
     border-radius: 25px;
@@ -18,8 +18,8 @@
         position :absolute;
       width: 384px;
       height: 117px;
-      left: 277px;
-      top: 230px;
+      left: 20%;
+      top: 33%;
       font-family: 'Signika', sans-serif;
       font-style: normal;
       font-weight: 300;
@@ -50,14 +50,14 @@
      
       left: 48%;
       margin-left: -3px;
-      top: 130px;
+      top: 20%;
     }
     
     label.fuser{
       
     position: absolute;
     left: 54%;
-    top: 200px;
+    top: 31%;
     
     font-style: normal;
     font-weight: 300;
@@ -72,7 +72,7 @@
     width: 260px;
     height: 35px;
     left: 53%;
-    top: 230px;
+    top: 35%;
     background: #FFFFFF;
     border-radius: 8px;
     border : none;
@@ -82,7 +82,7 @@
     label.fmdp{
       position: absolute;
     left: 54%;
-    top: 280px;
+    top: 44%;
    
     font-weight: 300;
     font-size: 16px;
@@ -95,7 +95,7 @@
     width: 260px;
     height: 35px;
     left: 53%;
-    top: 310px;
+    top: 47%;
     background: #FFFFFF;
     border-radius: 8px;
     border : none;
@@ -106,7 +106,7 @@
     width: 260px;
     height: 35px;
     left: 53%;
-    top: 400px;
+    top: 24rem;
     color : white;
     
     font-size: 15px;
