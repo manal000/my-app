@@ -11,7 +11,7 @@ margin-right: auto;
 margin-top: 8rem;
 
 
-background: #F0F5F9;
+background: #F6FBFF;
 border-radius: 10px;
 }
 
@@ -39,7 +39,7 @@ b.client{
     width: 200px;
     height: 25px;
    
-    margin-left: 50% ;
+    margin-right: 2rem ;
     margin-top: 3.25rem;
     background: none;
     border-top: none;
@@ -55,45 +55,23 @@ font-size: 15px;
     display: flex;
 }
 
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
+
   
   .container {
     padding: 2px 16px;
   }
 
-  .cardClient{
-box-sizing: border-box;
-
-
-width: 296px;
-height: 150px;
-left: 5rem;
-top: 17rem;
-
-background: #FFFFFF;
-border: 5px solid #0873B8;
-border-radius: 10px;
-  }
+ 
 
 .grid-client{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto ;
     gap: 2rem;
-    padding-left: 5rem;
+    padding-left: 2rem;
     
 }
 
-#name{
-    width: 131px;
-height: 25px;
-left: 221px;
-top: 447px;
 
-font-family:   'Signika', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 12px;
-line-height: 15px;
+.test{
+  justify-content: space-between;
 }

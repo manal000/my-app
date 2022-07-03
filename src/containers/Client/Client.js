@@ -1,6 +1,6 @@
 import "./Client.css";
 import React from "react";
-
+import Card from "../Card/Card.js";
 
 
 function Client() {
@@ -15,77 +15,12 @@ function Client() {
          </div>
 <div className="grid-client">
 
-<div className="cardClient">
-  <span id="name">
-name
-  </span> 
-  <span id="id">
-    id
-  </span> <br />
-  <span id="address">
-    address
-  </span> <br />
-  <span id="tel">
-    tel
-  </span>
-</div>
+<Card />
+<Card />
+<Card />
+<Card />
+<Card />
 
-<div className="cardClient">
-  <span id="name">
-name
-  </span> 
-  <span id="id">
-    id
-  </span> <br />
-  <span id="address">
-    address
-  </span> <br />
-  <span id="tel">
-    tel
-  </span>
-</div>
-<div className="cardClient">
-  <span id="name">
-name
-  </span> 
-  <span id="id">
-    id
-  </span> <br />
-  <span id="address">
-    address
-  </span> <br />
-  <span id="tel">
-    tel
-  </span>
-</div>
-<div className="cardClient">
-  <span id="name">
-name
-  </span> 
-  <span id="id">
-    id
-  </span> <br />
-  <span id="address">
-    address
-  </span> <br />
-  <span id="tel">
-    tel
-  </span>
-</div>
-<div className="cardClient">
-  <span id="name">
-name
-  </span> 
-  <span id="id">
-    id
-  </span> <br />
-  <span id="address">
-    address
-  </span> <br />
-  <span id="tel">
-    tel
-  </span>
-</div>
 
 </div>
 
