@@ -16,8 +16,8 @@
     
     p.welcome{
         position :absolute;
-      width: 384px;
-      height: 117px;
+      width: 24rem;
+      height: 1rem;;
       left: 20%;
       top: 33%;
       font-family: 'Signika', sans-serif;
@@ -69,8 +69,8 @@
     
     #fuser{
    position: absolute;
-    width: 260px;
-    height: 35px;
+    width: 16rem;
+    height: 2rem;
     left: 53%;
     top: 35%;
     background: #FFFFFF;
@@ -92,8 +92,8 @@
     
     #fmdp{
     position : absolute;
-    width: 260px;
-    height: 35px;
+    width: 16rem;
+    height: 2rem;
     left: 53%;
     top: 47%;
     background: #FFFFFF;
@@ -103,8 +103,8 @@
     
     #button-login{
     position : absolute ;
-    width: 260px;
-    height: 35px;
+    width: 16rem;
+    height: 2rem;
     left: 53%;
     top: 24rem;
     color : white;
