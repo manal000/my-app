@@ -1,6 +1,8 @@
 import "./Login.css";
 
-function Login() {
+
+
+ function Login() {
     return (
       <div >
         
@@ -18,14 +20,19 @@ function Login() {
 
           <label class="fmdp">Mot de passe :</label><br/>
           <input type="text" id="fmdp" name="fmdp" value=""></input><br/>
-          <input type="submit" id="button-login" value ="Se connecter" ></input>
+          <input type="submit" onclick="myFunction()" id="button-login" value ="Se connecter" ></input>
          
       </form>
        
-  
+
         
+      
+      
+
       </div>
+
+     
     );
   }
-  
+
   export default Login;

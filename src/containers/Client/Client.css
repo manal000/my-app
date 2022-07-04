@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+
+.bg-Client{
+
+width: 1250px;
+height: 822px;
+
+margin-left: auto;
+margin-right: auto;
+margin-top: 8rem;
+
+
+background: #F6FBFF;
+border-radius: 10px;
+}
+
+p.View{ 
+    
+width: 330px;
+height: 79px;
+padding-left: 2rem;
+margin-top: 3rem;
+font-family:   'Signika', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 35px;
+line-height: 39px;
+
+color: #000000;
+}
+
+b.client{ 
+    color: #0470B5;
+}
+
+#search{
+ 
+    width: 200px;
+    height: 25px;
+   
+    margin-right: 2rem ;
+    margin-top: 3.25rem;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-family:   'Signika', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+}
+
+.test{
+    display: flex;
+}
+
+
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+ 
+
+.grid-client{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 2rem;
+    padding-left: 2rem;
+    
+}
+
+
+.test{
+  justify-content: space-between;
+}
