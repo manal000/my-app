@@ -10,7 +10,7 @@ function Client() {
 
     <div className="test" test>
      <p className="View"> AFFICHER <b className="client">CLIENT </b></p>
-     <input type="text" id="search" placeholder="Search.."></input> 
+     <input type="text" id="searchClient" placeholder="Search.."></input> 
      
          </div>
 <div className="grid-client">

@@ -1,0 +1,53 @@
+.bg-Client{
+
+    width: 90%;
+    height: 100%;
+    padding: 4rem;
+    
+    
+    
+    
+    background: #FFFFFF;
+    border-radius: 10px;
+    }
+    
+    p.View{ 
+      
+    width: 326px;
+    height: 79px;
+    padding-left: 2rem;
+    margin-top: 3rem;
+    font-family:   'Signika', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 39px;
+    
+    color: #000000;
+    }
+    
+    b.client{ 
+        color: #0470B5;
+    }
+    
+    #searchProduit{
+ 
+        width: 201px;
+        height: 25px;
+       
+        margin-left: 38rem ;
+        margin-top: 3.25rem;
+        background: none;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        font-family:   'Signika', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    }
+
+    .test{
+        display: flex;
+    }
+    
