@@ -9,7 +9,7 @@ function Client() {
     <div className="bg-Client" >
 
     <div className="test" test>
-     <p className="View"> AFFICHER <b className="client">CLIENT </b></p>
+     <p className="View"> AFFICHER <b >CLIENT </b></p>
      <input type="text" id="searchClient" placeholder="Search.."></input> 
      
          </div>

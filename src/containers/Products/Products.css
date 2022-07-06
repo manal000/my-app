@@ -11,10 +11,10 @@
     border-radius: 10px;
     }
     
-    p.View{ 
-      
-    width: 326px;
-    height: 79px;
+   h1#gerer{ 
+    
+    width: 400px;
+    height: 20px;
     padding-left: 2rem;
     margin-top: 3rem;
     font-family:   'Signika', sans-serif;
@@ -29,13 +29,27 @@
     b.client{ 
         color: #0470B5;
     }
+
+    h2#pour{
+        width: 400px;
+        height: 50px;
+        padding-left: 2rem;
+       
+        font-family:   'Signika', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 39px;
+        
+        color: #000000;   
+    }
     
     #searchProduit{
  
         width: 201px;
         height: 25px;
        
-        margin-left: 38rem ;
+        margin-left: 35rem ;
         margin-top: 3.25rem;
         background: none;
         border-top: none;
@@ -51,3 +65,17 @@
         display: flex;
     }
     
+    .forClient{
+        width: 326px;
+        height: 79px;
+        padding-left: 2rem;
+        margin-top: 6rem;
+        font-family:   'Signika', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 39px;
+        
+        color: #000000;
+
+    }
