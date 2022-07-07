@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@200&display=swap');
 
 .bg-Client{
 
 width: 90%;
 height: 100%;
-padding: 4rem;
+padding-left: 4rem;
 
 
 
@@ -20,7 +21,7 @@ width: 330px;
 height: 79px;
 padding-left: 2rem;
 margin-top: 3rem;
-font-family:   'Signika', sans-serif;
+font-family:   'Catamaran', sans-serif;
 font-style: normal;
 font-weight: 300;
 font-size: 35px;
@@ -42,7 +43,7 @@ color: #000000;
     border-top: none;
     border-left: none;
     border-right: none;
-    font-family:   'Signika', sans-serif;
+    font-family:  'Catamaran', sans-serif;
 font-style: normal;
 font-weight: 300;
 font-size: 15px;

@@ -6,6 +6,7 @@ import Login from "./containers/Login/Login";
 import Header from "./components/Header/Header.js";
 import Client from "./containers/Client/Client.js";
 import Products from "./containers/Products/Products";
+import Checkout from "./containers/Checkout/Checkout";
 
 import { useMediaQuery } from 'react-responsive';
 

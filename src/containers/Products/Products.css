@@ -1,14 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@200&display=swap');
 .bg-Client{
-
+    
     width: 90%;
     height: 100%;
     padding: 4rem;
     
+  
+    background: #ffffff;
+
     
     
     
-    background: #FFFFFF;
-    border-radius: 10px;
+    
+   
     }
     
    h1#gerer{ 
@@ -17,9 +21,9 @@
     height: 20px;
     padding-left: 2rem;
     margin-top: 3rem;
-    font-family:   'Signika', sans-serif;
+    font-family:   'Catamaran', sans-serif;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 200;
     font-size: 35px;
     line-height: 39px;
     
@@ -28,6 +32,7 @@
     
     b.client{ 
         color: #0470B5;
+        font-weight: 600;
     }
 
     h2#pour{
@@ -35,9 +40,9 @@
         height: 50px;
         padding-left: 2rem;
        
-        font-family:   'Signika', sans-serif;
+        font-family:   'Catamaran', sans-serif;
         font-style: normal;
-        font-weight: 300;
+        font-weight: 500;
         font-size: 25px;
         line-height: 39px;
         
@@ -78,4 +83,21 @@
         
         color: #000000;
 
+
+
     }
+
+
+    .grid-products{
+        display: grid;
+        grid-template-columns: auto auto auto auto ;
+        margin-left: 2rem;
+   
+        border: 2px solid #EDFF1F;
+        gap: 3rem;
+    padding-left: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+        
+    }
+    

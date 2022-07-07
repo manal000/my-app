@@ -3,7 +3,7 @@ import './Products.css';
 import ProductCard from '../../components/ProductCard/ProductCard';
 const Products = () => {
   return (
-    <div>
+    <div> 
        <div className="bg-Client" >
 
 <div className="test" >
@@ -17,7 +17,15 @@ const Products = () => {
 
   
 </div>
+
+<div className="grid-products">
 <ProductCard />
+<ProductCard />
+<ProductCard />
+<ProductCard />
+<ProductCard />
+</div>
+
     </div>
     </div>
   )
