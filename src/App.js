@@ -15,7 +15,7 @@ function App() {
     <div >
       <header className="App-header">
 <Header />
-<Products />
+<Checkout />
       </header>
     
     </div>

@@ -12,21 +12,26 @@ const Products = () => {
  <h2 id="pour">Pour <b className="client">nomClient</b></h2>
  </div>
  
- <input type="text" id="searchProduit" placeholder="Search.."></input> 
+ <input type="text" className="searchProduit" placeholder="Search.."></input> 
 
 
   
 </div>
 
 <div className="grid-products">
-<ProductCard />
-<ProductCard />
-<ProductCard />
-<ProductCard />
-<ProductCard />
+  
+<div id='grid-item'><ProductCard /></div>
+<div id='grid-item'><ProductCard /></div>
+<div id='grid-item'><ProductCard /></div>
+<div id='grid-item'><ProductCard /></div>
+<div id='grid-item'><ProductCard /></div>
+<div id='grid-item'><ProductCard /></div>
+
+
+</div>
 </div>
 
-    </div>
+    
     </div>
   )
 }
