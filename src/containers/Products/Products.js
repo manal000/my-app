@@ -1,9 +1,11 @@
 import React from 'react'
 import './Products.css';
 import ProductCard from '../../components/ProductCard/ProductCard';
+import HeaderProdcuts from '../../components/HeaderProducts/HeaderProducts.js';
 const Products = () => {
   return (
     <div> 
+      <HeaderProdcuts />
        <div className="bg-Client" >
 
 <div className="test" >

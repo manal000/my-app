@@ -1,12 +1,12 @@
 import "./Login.css";
-
+import HeaderLogin from "../../components/HeaderLogin/HeaderLogin";
 
 
  function Login() {
     return (
       <div >
         
-  
+  <HeaderLogin />
           <div className="bg-Form"> </div>
   <img src="/Logo1.png" class="Logo1" ></img>
           <p class="welcome">BIENVENUE CHEZ BARID AL-MAGHRIB DISTRIBUTION  ! <b class="login">CONNECTER-VOUS</b> </p>

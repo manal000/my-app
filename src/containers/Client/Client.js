@@ -1,11 +1,12 @@
 import "./Client.css";
 import React from "react";
 import CardClient from "../../components/CardClient/CardClient.js";
-
+import HeaderClient from "../../components/HeaderClient/HeaderClient";
 
 function Client() {
   return (
-    
+    <div>
+    <HeaderClient />
     <div className="bg-Client" >
 
     <div className="test" test>
@@ -24,7 +25,7 @@ function Client() {
 <CardClient />
 
 
-
+</div>
 </div>
 
 
