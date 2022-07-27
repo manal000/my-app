@@ -19,7 +19,9 @@ function App() {
     <div >
       <header className="App-header">
 
-<ManagerClient/>
+
+<Login/>
+
       </header>
     
     </div>
