@@ -14,10 +14,7 @@ const Products = () => {
  <h2 id="pour">Pour <b className="client">nomClient</b></h2>
  </div>
  
- <input type="text" className="searchProduit" placeholder="Search.."></input> 
-
-
-  
+ <input type="text" className="searchProduit" placeholder="Search.."></input>  
 </div>
 
 <div className="grid-products">

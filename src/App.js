@@ -10,14 +10,16 @@ import Checkout from "./containers/Checkout/Checkout";
 
 
 
+
 import { useMediaQuery } from 'react-responsive';
+import ManagerClient from "./containers/ManagerClient/ManagerClient";
 
 function App() {
   return (
     <div >
       <header className="App-header">
 
-<Checkout/>
+<ManagerClient/>
       </header>
     
     </div>
