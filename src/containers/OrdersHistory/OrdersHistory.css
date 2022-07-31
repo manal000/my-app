@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@200&display=swap');
+
+.bg-historique{
+    
+    width: 90%;
+    height: 100%;
+    padding: 5rem;
+    
+  
+    background: #ffffff;
+
+    
+    
+    
+    
+   
+    }
+    
+   h1#historique{ 
+    
+    width: 500px;
+    height: 20px;
+    padding-left: 2rem;
+    margin-top: 3rem;
+    font-family:   'Catamaran', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 35px;
+    line-height: 39px;
+    
+    color: #000000;
+    }
+    
+    b.client{ 
+        color: #0470B5;
+        font-weight: 600;
+    }
+
+    h2#pour{
+        width: 400px;
+        height: 50px;
+        padding-left: 2rem;
+       
+        font-family:   'Catamaran', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 39px;
+        
+        color: #000000;   
+    }
+    
+#new{grid-area: new;color: #000000; }
+#newO{margin-left: 6rem;}
+
+#old{grid-area: old;color: #000000;}
+#oldO{margin-left:6rem;}
+    .grid-historique1{
+display: grid;
+grid-template-areas: 'new' 'old'
+;
+
+gap: 1rem;
+
+    }
+
+
+
+
+.grid-OrdersH{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    padding: 2rem;
+    margin-left: 8rem;
+}
+

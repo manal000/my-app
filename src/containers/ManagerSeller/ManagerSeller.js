@@ -1,11 +1,16 @@
+import React from 'react'
 import React from 'react';
 import HeaderManager from '../../components/HeaderManager/HeaderManager.js';
-import CardClientManager from '../../components/CardClientManager/CardClientManager.js';
-import './ManagerClient.css';
+
+import './Managerseller.css';
 import {FiUserPlus} from "react-icons/fi";
 
-const ManagerClient = () => {
+
+const ManagerSeller = () => {
   return (
+    <div>
+    
+
     <div>
       <HeaderManager />
       <div className="bg-Client" >
@@ -30,10 +35,11 @@ const ManagerClient = () => {
 
 </div>
 
-     
+ </div>    
 
     
   )
 }
 
-export default ManagerClient;
+
+export default ManagerSeller;

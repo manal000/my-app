@@ -3,7 +3,7 @@
     
     width: 90%;
     height: 100%;
-    padding: 5rem;
+    padding: 4rem;
     
   
     background: #ffffff;
@@ -15,7 +15,7 @@
    
     }
     
-   h1#gerer{ 
+   h1#gererManager{ 
     
     width: 400px;
     height: 20px;
@@ -30,7 +30,7 @@
     color: #000000;
     }
     
-    b.client{ 
+    b.clientManager{ 
         color: #0470B5;
         font-weight: 600;
     }
@@ -49,7 +49,7 @@
         color: #000000;   
     }
     
-    .searchProduit{
+    .searchProduitManager{
  
         width: 300px;
         height: 25px;
@@ -66,32 +66,13 @@
     font-size: 15px;
     }
 
-    .test{
-        display: flex;
-    }
     
-    .forClient{
-        width: 326px;
-        height: 79px;
-        padding-left: 2rem;
-        margin-top: 6rem;
-        font-family:   'Signika', sans-serif;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 20px;
-        line-height: 39px;
-        
-        color: #000000;
 
 
-
-    }
-
-
-    .grid-products{
+    .grid-productsM{
         display: grid;
         grid-template-columns: auto auto auto auto ;
-        margin-left: 5.5rem;
+        margin-left: 6rem;
         margin-right: 5rem;
         margin-top: 2rem;
         padding: 0.5rem;
@@ -106,9 +87,15 @@
         
     }
     
-    #grid-item{
+    #grid-itemM{
         border:none;
        border-radius: 0.5rem;
         padding-left: 1rem;   
         background-color: #ffffff;
+     }
+
+     #addM{
+      height: 2.5rem;
+  margin-left: 95%;
+  cursor: pointer;
      }

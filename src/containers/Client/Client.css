@@ -10,7 +10,6 @@ padding-left: 6rem;
 
 
 
-
 background: #FFFFFF;
 border-radius: 10px;
 }
@@ -19,7 +18,7 @@ p.View{
     
 width: 330px;
 height: 79px;
-padding-left: 2rem;
+padding-left: 6rem;
 margin-top: 3rem;
 font-family:   'Catamaran', sans-serif;
 font-style: normal;
@@ -65,7 +64,7 @@ font-size: 15px;
     display: grid;
     grid-template-columns: auto auto auto ;
     gap: 3rem;
-    padding-left: 5rem;
+    margin-left: 2rem;
     
 }
 

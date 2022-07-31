@@ -1,3 +1,4 @@
+
 .bgHeader{
     position: fixed;
     width: 100%;
@@ -25,24 +26,13 @@ height: 2rem;
 right: 2.5rem;
 top: 1.5rem;
 color: #0268AF;
+cursor: pointer;
 }
 
-
-.cartManager{
-  position : absolute;
-width: 3rem;
-height: 2rem;
-right: 6rem;
-top: 1.5rem;
-color: #0268AF;
-}
-
-.user{
-
- position : absolute;
-width: 3rem;
-height: 2rem;
-right: 9.5rem;
-top: 1.5rem;
-color: #0268AF;
-}
+.clients{  position : absolute;
+  width: 3rem;
+  height: 2.25rem;
+  right: 6rem;
+  top: 1.5rem;
+  color: #0268AF;
+cursor: pointer;}

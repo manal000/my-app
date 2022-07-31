@@ -1,3 +1,4 @@
+
 .bgHeader{
     position: fixed;
     width: 100%;
@@ -23,26 +24,6 @@ padding-left: 45%;
 width: 3rem;
 height: 2rem;
 right: 2.5rem;
-top: 1.5rem;
-color: #0268AF;
-}
-
-
-.cartManager{
-  position : absolute;
-width: 3rem;
-height: 2rem;
-right: 6rem;
-top: 1.5rem;
-color: #0268AF;
-}
-
-.user{
-
- position : absolute;
-width: 3rem;
-height: 2rem;
-right: 9.5rem;
 top: 1.5rem;
 color: #0268AF;
 }

@@ -3,20 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@200&display=swap');
 
 .bg-Client{
-
 width: 90%;
 height: 100%;
 padding-left: 6rem;
-
-
-
-
-background: #FFFFFF;
+background: #ffffff;
 border-radius: 10px;
 }
 
 p.View{ 
-    
 width: 330px;
 height: 79px;
 padding-left: rem;
@@ -26,47 +20,47 @@ font-style: normal;
 font-weight: 300;
 font-size: 35px;
 line-height: 39px;
-
 color: #000000;
 }
 
 
 
 #searchClient{
- 
-    width: 200px;
-    height: 25px;
-   
-    margin-left: 30rem ;
-    margin-top: 3.25rem;
-    background: none;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    font-family:  'Catamaran', sans-serif;
+width: 200px;
+height: 25px;
+margin-left: 30rem ;
+margin-top: 3.25rem;
+background: none;
+border-top: none;
+border-left: none;
+border-right: none;
+font-family:  'Catamaran', sans-serif;
 font-style: normal;
 font-weight: 300;
 font-size: 15px;
 }
 
-
-
-  
-  .container {
-    padding: 2px 16px;
+.container {
+padding: 2px 16px;
   }
 
  
 
 .grid-client{
-    display: grid;
-    grid-template-columns: auto auto auto ;
-    gap: 3rem;
-    padding-left: 5rem;
-    
+display: grid;
+grid-template-columns: auto auto auto ;
+gap: 3rem;
+padding-left: 4rem;
 }
 
 
 .test{
-  justify-content: space-between;
+justify-content: space-between;
+height: 8rem;
+}
+
+#add{
+height:4.5rem;
+  margin-left: 95%;
+  cursor: pointer;
 }

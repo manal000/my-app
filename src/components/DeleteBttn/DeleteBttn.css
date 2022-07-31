@@ -1,0 +1,30 @@
+
+.deleteBttn{
+ 
+margin-left: 40%;
+
+border-radius: 50%;
+border: 2px solid transparent ;
+    height: 1.25rem;
+    width: 1.25rem;
+    padding: 1%;
+    
+    background: linear-gradient( #0873B8, #EDFF1F, #0873B8);
+    ;
+}
+
+.DeleteBttn{
+background: #FFFFFF;
+width: 1.25rem;
+height: 1.25rem;
+border-radius: 50%;
+
+
+}
+
+#delete{
+
+    width: 13px;
+    height: 13px;}
+
+    .delBttn{background: none;border: none;cursor: pointer; padding-left: 0.20rem; margin-top: 3px;}

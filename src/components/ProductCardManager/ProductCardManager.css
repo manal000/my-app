@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+
+
+
+#product1M { grid-area: product1; margin-left: auto;
+    margin-right: auto; }
+
+      #nameProductM { grid-area: nameProduct ; font-family: 'Signika', sans-serif; font-style :#000000;font-size: 15px; margin-top: 1rem;}
+
+#qteM { grid-area: qte; width: 75%; margin-left: auto;
+    margin-right: auto; margin-top: 0.5rem; }
+
+      #descriptionProductM { grid-area: descriptionProduct; font-family: 'Signika', sans-serif;  }
+
+     #priceM { grid-area: price; font-family: 'Signika', sans-serif;font-weight: 600;}
+
+     #manage-stockM {grid-area : manage-stock;  
+        margin-left: 1px; margin-top: 3px;
+       
+        background-color: #08B82F; 
+        border-radius: 8px; 
+        border: none; 
+        color: white; 
+        font-family: 'Signika', 
+        sans-serif; 
+        height: 2rem; 
+        width: 12rem ;
+    font-size: 15px;
+    cursor: pointer;}
+#ModifyM{grid-area: Modify;margin-left: 60%;}
+#deleteM{grid-area: delete;margin-left: 40%;margin-bottom: 2px;}
+
+.grid-productM{
+    display: inline-grid;
+        grid-template-areas:
+          'product1 product1'
+          'nameProduct nameProduct'
+          'descriptionProduct Modify'
+          'price delete'
+          'manage-stock manage-stock';
+        
+        gap: 0.25rem;
+        
+       padding: 1rem;
+}
+

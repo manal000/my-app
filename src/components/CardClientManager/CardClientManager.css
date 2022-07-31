@@ -32,17 +32,28 @@ color: #000000;
 #address { grid-area: address; }
       #tel { grid-area: tel; }
      #other { grid-area: other; }
-      #reviewAction{grid-area: select; size: 10%; margin-left: 20%; background-color: inherit
+.gridbtn{display: grid; grid-template-areas: 'mod del'; margin-left: 3rem; margin-right: 00.25rem;}
+
+#mod{grid-area: mod;}
+
+
+#del{grid-area: del;}
+
+ 
+
+      #reviewAction{grid-area: select; width: 20px; margin-left: 80%; background-color: inherit; border-radius: 30%
         ;}
-        #fab{grid-area: fab;}
-        
+      
+      
+
       .grid-card {
         display: grid;
         grid-template-areas:
           'name id'
-          'address fab'
+          'address other'
           'tel select';
-        gap: 2rem;
+        row-gap: 2rem;
+        column-gap: 2rem;
         
         padding: 15px ;
       }

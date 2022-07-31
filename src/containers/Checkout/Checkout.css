@@ -60,7 +60,7 @@ h1#checkout{
         .grid-orders{
             display: grid;
             margin-left: 22rem;
-            margin-top: 2rem;
+            margin-top: 5rem;
             grid-template-areas: 
             'orderProduct'
             'orderTotal'
@@ -69,11 +69,9 @@ h1#checkout{
       
             border: 2px solid #0873B8;
             border-radius: 0.5rem;
-           background-color: #ffffff;
-        
-           
-          width: 37rem;
-           height: 25rem;
+            background-color: #ffffff;
+            width: 37rem;
+            height: 25rem;
           
         }
 
@@ -89,6 +87,7 @@ h1#checkout{
         #Prixx{margin-left: 53%;margin-top: 1rem;grid-area: prixx; color: #FF0505; font-weight: 600; font-size: 22px;}
         .valider{grid-area: valider;height: 1.5rem;width: 4rem;margin-left: 53%; background: #0873B8;
             border-radius: 8px; color: #FFFFFF; border: none;}
+            
         .orderTotal{grid-area: orderTotal;   
             display: grid;
             grid-template-areas: 
